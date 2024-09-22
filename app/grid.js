@@ -1,16 +1,15 @@
+// Grid.js
 import React from 'react';
-import MovieItem from "./movieItem.js";
+import MovieItem from "./movieItem";
 
 const Grid = () => {
   return (
-    <>
-      <div className="container">
-        <MovieItem/>
-        <MovieItem/>
-        <MovieItem/>
-        <MovieItem/>
-      </div>
-    </>
+    <div className="grid-container">
+      <MovieItem />
+      <MovieItem />
+      <MovieItem />
+      <MovieItem />
+    </div>
   );
 };
 

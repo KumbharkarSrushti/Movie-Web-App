@@ -1,17 +1,15 @@
+import React from 'react';
 import Header from "./header";
-import Grid from "./grid.js"
+import Grid from "./grid";
 
-const Home=()=>{
-    return(
-        <>
-        <div className="first_row">
-            <Header />
-            <div className="line"></div>
-        </div>
-        <Grid/>
-        </>
-    )
+const Home = () => {
+  return (
+    <div className="container">
+      <Header />
+      <div className="line"></div>
+      <Grid />
+    </div>
+  );
 }
-
 
 export default Home;
